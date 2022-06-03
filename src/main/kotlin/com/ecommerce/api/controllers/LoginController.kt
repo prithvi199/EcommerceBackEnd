@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse
 
 
 @RestController
-@CrossOrigin(origins = arrayOf("http://localhost:3000"), allowCredentials = "true")
+@CrossOrigin(origins = arrayOf("https://ecommercefrontend17.herokuapp.com"), allowCredentials = "true")
 class LoginController(
     var loginService: LoginService,
     var userService: UserService,

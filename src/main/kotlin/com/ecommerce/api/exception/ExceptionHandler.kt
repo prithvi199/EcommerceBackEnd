@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseStatus
 import java.util.function.Consumer
 
 @RestControllerAdvice
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://ecommercefrontend17.herokuapp.com")
 class ExceptionHandler {
 
     @ExceptionHandler

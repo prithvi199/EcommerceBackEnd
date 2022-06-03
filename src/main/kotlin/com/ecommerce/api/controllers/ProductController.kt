@@ -10,7 +10,7 @@ import javax.validation.Valid
 
 @RestController
 @RequestMapping("/product")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://ecommercefrontend17.herokuapp.com")
 class ProductController(var productService: ProductService) {
 
     @PostMapping(

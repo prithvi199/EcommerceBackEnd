@@ -14,7 +14,7 @@ import javax.validation.Valid
 
 @RestController
 @RequestMapping("/review")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://ecommercefrontend17.herokuapp.com")
 class AddCartController(
     var userService: UserService,
 

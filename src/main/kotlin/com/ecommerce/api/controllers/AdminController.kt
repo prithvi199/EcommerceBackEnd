@@ -8,7 +8,7 @@ import javax.validation.Valid
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://ecommercefrontend17.herokuapp.com")
 class AdminController(var adminService: AdminService) {
 
     @PostMapping

@@ -14,7 +14,7 @@ import javax.validation.Valid
 
 @RestController
 @RequestMapping( "/User")
-@CrossOrigin(origins = arrayOf("http://localhost:3000"), allowCredentials = "true")
+@CrossOrigin(origins = arrayOf("https://ecommercefrontend17.herokuapp.com"), allowCredentials = "true")
 class UserController( private var userService: UserService) {
     @PostMapping
     fun addUser(@Valid @RequestBody user: User): ResponseEntity<User> {

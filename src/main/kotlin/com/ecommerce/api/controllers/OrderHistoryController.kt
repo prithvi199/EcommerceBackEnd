@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/orderhistory")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://ecommercefrontend17.herokuapp.com")
 class OrderHistoryController (
     var orderHistoryService: OrderHistoryService
 
